@@ -2,7 +2,7 @@ macro_ime_kana_eng: macro_ime_kana_eng{
 compatible = "zmk,behavior-macro";
 label = "macro_ime_kana_eng";
 #binding-cells = <0>;
-bindings = <&kp LALT>, <&kp GRAVE>;
+bindings = <&kp LA(GRAVE)>;
 };
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
