@@ -222,3 +222,19 @@
     bindings = <&mkp MB1 &mkp MB1>;
     display-name = "Double Click";
   };
+
+
+
+  macros {
+        EngJpn: EngJpn {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <
+                &press LALT
+                &press GRAVE
+                &release GRAVE
+                &release LALT
+            >;
+            label = "ENGJPN";
+        };
+    };
