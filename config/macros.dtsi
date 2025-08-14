@@ -223,15 +223,15 @@
     display-name = "Double Click";
   };
 
-        EngJpn: EngJpn {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <
-                &press LALT
-                &press GRAVE
-                &release GRAVE
-                &release LALT
-            >;
-            label = "ENGJPN";
-        };
+  WinEngJpn: WinEngJpn {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <
+      &press LALT
+      &press GRAVE
+      &release GRAVE
+      &release LALT
+     >;
+    label = "WINENGJPN";
+  };
 
