@@ -223,8 +223,6 @@
     display-name = "Double Click";
   };
 
-/ {
-    macros {
         EngJpn: EngJpn {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -236,5 +234,4 @@
             >;
             label = "ENGJPN";
         };
-    };
-};
+
