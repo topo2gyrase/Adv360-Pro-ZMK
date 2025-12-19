@@ -21,6 +21,24 @@
         };
     };
 
+    macros {
+        ime_toggle: ime_toggle {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LALT>,
+                <&macro_tap>,
+                <&kp GRAVE>,
+                <&macro_release>,
+                <&kp LALT>;
+
+            label = "IME_TOGGLE";
+            wait-ms = <30>;
+            tap-ms = <40>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
